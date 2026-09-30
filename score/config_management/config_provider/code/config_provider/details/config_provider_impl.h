@@ -19,8 +19,8 @@
 #include "score/config_management/config_provider/code/persistency/persistency.h"
 #include "score/config_management/config_provider/code/proxies/internal_config_provider.h"
 
-#include "score/memory/string_comparison_adaptor.h"
 #include "score/mw/log/logger.h"
+#include "score/string_manipulation/string_comparison_adaptor.h"
 
 #include "score/concurrency/condition_variable.h"
 #include "score/mw/service/proxy_data.h"
